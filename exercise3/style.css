@@ -1,7 +1,22 @@
+#title {
+    color: darkgreen;
+    background-color: lightgreen;
+    font-family: Helvetica, sans-serif;
+    font-style: oblique, italic;
+    font-size: 50px;
+    text-align: center;
+}
+
 .newsection {
     color: red;
+    font-family: Helvetica, sans-serif;
 }
 
 .image {
     max-height: 300px;
+}
+
+h2 {
+    font-family: ;
+
 }
