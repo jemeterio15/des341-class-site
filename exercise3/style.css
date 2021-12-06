@@ -5,15 +5,66 @@
     font-style: oblique, italic;
     font-size: 50px;
     text-align: center;
+    letter-spacing: 3px;
+    padding: 100px;
+}
+
+#toc {
+    background-color: lightgrey;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+#summary {
+    font-family: Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-right: 350px;
+}
+
+#step {
+    font-family: Helvetica, sans-serif;
+    padding: 25px;
+    padding-top: 150px;
+}
+
+#s1of3block {
+    font-family: Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightskyblue;
+}
+
+#s2of3block {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightseagreen;
+}
+
+#s3of3block {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightpink;
 }
 
 .newsection {
-    color: red;
+    background-color: black;
+    padding: 50px;
+    color: white;
     font-family: Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .image {
     max-height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+    border-color: white;
 }
 
 h2 {
