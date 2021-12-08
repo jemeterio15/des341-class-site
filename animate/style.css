@@ -59,14 +59,13 @@ body {
   background-color: hotpink;
   width: 25%;
   height: 50%;
-	/* transition: transform 1s ease-in; */
   top: 42px;
   left: 19px;
+  animation: move-mouse 2s ease-in-out forwards infinite;
 }
 
 .desk:hover .mouse {
-	/* transform: translateX(100%); */
-  animation: move-mouse 3s ease-in-out forwards infinite;
+  animation-play-state: paused;
 }
 
 @keyframes move-mouse {
@@ -92,7 +91,8 @@ body {
 }
 
 .desk:hover .monitor-in {
-	animation: change-color 3s ease-in-out forwards infinite;
+  animation-play-state: paused;
+	/* animation: change-color 3s ease-in-out forwards infinite; */
 }
 
 @keyframes change-color {
@@ -153,6 +153,7 @@ body {
   background: royalblue;
   position: relative;
   margin: 5px;
+  animation: change-color 3s ease-in-out forwards infinite;
 }
 
 .base {
