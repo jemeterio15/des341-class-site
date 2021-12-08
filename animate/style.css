@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+.canvas1 {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: lightskyblue;
+  position: relative;
+  z-index: 0;
+}
+
+.p1 {
+  position: absolute;
+}
+
+.desk {
+  background: #000000;
+  width: 200px;
+  height: 200px;
+  width: 100%;
+  top: 400px;
+  border: 2.5px solid white;
+  z-index: -1;
+}
+
+.setup {
+  height: 425px;
+  width: 527px;
+  bottom: 50px;
+  left: 216px;
+  top: -350px;
+}
+
+.kbm {
+  height: 100px;
+  width: 300px;
+  bottom: 50px;
+  left: -222px;
+  top: 109px;
+  background-color: hotpink;
+  border-radius: 7.5px;
+}
+
+.mousebox {
+  width: 100px;
+  height: 100px;
+  left: 415px;
+  top: -33px;
+}		
+
+.mouse {
+  border-radius: 50px;
+  background-color: hotpink;
+  width: 25%;
+  height: 50%;
+	/* transition: transform 1s ease-in; */
+  top: 42px;
+  left: 19px;
+}
+
+.desk:hover .mouse {
+	/* transform: translateX(100%); */
+  animation: move-mouse 3s ease-in-out forwards infinite;
+}
+
+@keyframes move-mouse {
+  0% {
+		transform: translateX(0%)
+	}
+
+	25% {
+		transform: translateY(100%) translateX(100%)
+	}
+
+	50% {
+		transform: translateY(100%)
+	}
+
+	75% {
+		transform: translateX(100%);
+	}
+
+	100% {
+		transform: translateX(0%)
+	}
+}
+
+.desk:hover .monitor-in {
+	animation: change-color 3s ease-in-out forwards infinite;
+}
+
+@keyframes change-color {
+	0% {
+		background-color: #FF0000;
+	}
+
+	11% {
+		background-color: #FF8000;
+	}
+
+	22% {
+		background-color: #FFFF00;
+	}
+
+	33% {
+		background-color: #88FF00;
+	}
+	
+	44% {
+		background-color: #00FFFF;
+	}
+
+	55% {
+		background-color: #0400FF;
+	}
+	
+	66% {
+		background-color: #5100FF;
+	}
+
+	77% {
+		background-color: #9E00FF;
+	}
+
+	88% {
+		background-color: #EA00FF;
+	}
+
+	99% {
+		background-color: #FF0059;
+	}
+}
+
+
+.monitor-out {
+  top: -200px;
+  left: -155px;
+  width: 350px;
+  height: 230px;
+  background: red;
+  border-radius: 5px;
+}
+
+.monitor-in {
+  width: 340px;
+  height: 220px;
+  background: royalblue;
+  position: relative;
+  margin: 5px;
+}
+
+.base {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px;
+  top: 300px;
+  left: 200px;
+}
+
+.neck {
+  background: red;
+  height: 86px;
+  width: 44px;
+  left: 230px;
+  top: 298px;
+}
+
+.canvas2 {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: #efc11b;
+  position: relative;
+  z-index: 0;
+}
+
+.arm {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+
+.monitor {
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  height: 100px;
+  background: red;
+}
