@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+}
+
+.canvas1 {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: #c76ea3;
+  position: relative;
+  z-index: 0;
+}
+
+.p1 {
+  position: absolute;
+}
+
+.desk {
+  position: relative;
+  background: #000000;
+  width: 200px;
+  height: 200px;
+  width: 100%;
+  top: 400px;
+  border: 2.5px solid white;
+  z-index: -1;
+}
+
+.setup {
+  position: absolute;
+  height: 425px;
+  width: 527px;
+  bottom: 50px;
+  left: 216px;
+  top: -350px;
+}
+
+.kbm {
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  bottom: 50px;
+  left: -222px;
+  top: 109px;
+  background-color: hotpink;
+  border-radius: 7.5px;
+}
+
+.mousebox {
+  width: 100px;
+  height: 100px;
+  left: 415px;
+  top: -33px;
+  position: relative;
+}
+
+.mouse {
+  border-radius: 75px;
+  background-color: hotpink;
+  width: 28px;
+  height: 50px;
+  margin-top: 42px;
+  margin-left: 19px;
+}
+
+.keyboard {
+
+}
+
+.monitor-out {
+  top: -200px;
+  left: -155px;
+  width: 350px;
+  height: 230px;
+  background: red;
+  border-radius: 5px;
+}
+
+.monitor-in {
+  width: 340px;
+  height: 220px;
+  background: royalblue;
+  position: relative;
+  margin: 5px;
+}
+
+.base {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px;
+  top: 300px;
+  left: 200px;
+}
+
+.neck {
+  background: red;
+  height: 86px;
+  width: 44px;
+  left: 230px;
+  top: 298px;
+}
+
+.canvas2 {
+  width: 900px;
+  height: 556px;
+  margin: 100px auto;
+  background: #efc11b;
+  position: relative;
+  z-index: 0;
+}
+
+.arm {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+
+.monitor {
+  position: absolute;
+  top: 50px;
+  width: 200px;
+  height: 100px;
+  background: red;
+}
